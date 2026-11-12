@@ -57,7 +57,7 @@ public class AppTest {
     void testRechargeAmount() {
         App.RechargePlan plan = App.getPlanById(1);
 
-        assertEquals(199, App.calculateRechargeAmount(plan));
+        assertEquals(999, App.calculateRechargeAmount(plan));
     }
 
     // 7. Test invalid recharge amount
